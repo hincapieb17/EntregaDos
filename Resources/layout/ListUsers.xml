@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004D47">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#5BC6A9"
+        app:itemTextColor="@color/colorMenu"
+        app:menu="@menu/navigation"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="113.5dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginRight="20.0dp"
+        android:layout_marginTop="35.0dp"
+        android:layout_marginBottom="35.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1"
+        android:src="@drawable/user"/>
+
+    <EditText
+        android:inputType="text"
+        android:backgroundTint="#F4ECCB"
+        android:hint="UserName"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="5.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idFormHome"
+        android:textColor="#F4ECCB"
+        android:textSize="18sp"
+        android:textColorHint="#F4ECCB"
+        android:typeface="sans"
+        android:gravity="center"/>
+    <Button
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#5BC6A9"
+        android:textSize="18sp"
+        android:id="@+id/btnSend" />
+
+    <EditText
+       android:inputType="number"
+       android:enabled="false"
+       android:backgroundTint="#F4ECCB"
+       android:hint="User ID"
+       android:layout_marginLeft="60.0dp"
+       android:layout_marginRight="60.0dp"
+       android:layout_marginTop="5.0dp"
+       android:layout_marginBottom="5.0dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/userIdHome"
+       android:textColor="#F4ECCB"
+       android:textSize="18sp"
+       android:textColorHint="#F4ECCB"
+       android:typeface="sans"
+       android:gravity="center"/>
+
+
+    <EditText
+       android:inputType="none"
+       android:enabled="false"
+       android:backgroundTint="#F4ECCB"
+       android:hint="Correo"
+       android:layout_marginLeft="60.0dp"
+       android:layout_marginRight="60.0dp"
+       android:layout_marginTop="5.0dp"
+       android:layout_marginBottom="5.0dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/titleHome"
+       android:textColor="#F4ECCB"
+       android:textSize="18sp"
+       android:textColorHint="#F4ECCB"
+       android:typeface="sans"
+       android:gravity="center"/>
+
+    <EditText
+        android:inputType="none"
+        android:enabled="false"
+        android:backgroundTint="#F4ECCB"
+        android:hint="Password"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="5.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bodyHome"
+        android:textColor="#F4ECCB"
+        android:textSize="18sp"
+        android:textColorHint="#F4ECCB"
+        android:typeface="sans"
+        android:gravity="center"/>
+
+    <Button
+        android:text="All Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#5BC6A9"
+        android:textSize="18sp"
+        android:id="@+id/btnAllData" />
+
+
+
+        
+</LinearLayout>
+
+

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entregaDos", "entregaDos.csproj", "{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510B1A90-F0F9-4C76-BBCA-E2799E5DF3FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C411AAE1-7DD4-4E4A-B79E-6B1BD0034C2E}
+	EndGlobalSection
+EndGlobal
