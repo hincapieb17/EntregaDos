@@ -51,9 +51,10 @@ namespace entregaDos
         {
             lock (locker)
             {
+
                 if (registro.Id == 0)
                 {
-                    return conexion.Insert(registro);
+                    return conexion.Insert(registro);            
                 }
                 else
                 {
@@ -63,12 +64,35 @@ namespace entregaDos
         }
 
 
-        //Selecionar 1 registro
+        //Selecionar un registro
         public User SelecionarUno(string User, string pass)
         {
             lock (locker)
             {
                 return conexion.Table<User>().FirstOrDefault(x => x.UserName == User  && x.Password == pass);
+            }
+        }
+        //get user
+        public User GetUser(String UserName)
+        {
+            lock (locker)
+            {
+                return conexion.Table<User>().FirstOrDefault(x => x.UserName == UserName);
+            }
+            
+        }
+
+        //Eliminar por ID
+        public int EliminarPorId(int id)
+        {
+            lock (locker)
+            {
+                var usuarioAEliminar = conexion.Table<User>().FirstOrDefault(x => x.Id == id);
+                if (usuarioAEliminar != null)
+                {
+                    return conexion.Delete(usuarioAEliminar);
+                }
+                return 0;
             }
         }
 
@@ -80,6 +104,9 @@ namespace entregaDos
                 return (from i in conexion.Table<User>() select i).ToList();
             }
         }
+
+
+
 
 
     }

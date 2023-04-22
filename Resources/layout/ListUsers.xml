@@ -38,7 +38,7 @@
         android:layout_marginBottom="5.0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/idFormHome"
+        android:id="@+id/idUserName"
         android:textColor="#F4ECCB"
         android:textSize="18sp"
         android:textColorHint="#F4ECCB"
@@ -56,7 +56,7 @@
         android:textColor="#F4ECCB"
         android:backgroundTint="#5BC6A9"
         android:textSize="18sp"
-        android:id="@+id/btnSend" />
+        android:id="@+id/btnSendUser" />
 
     <EditText
        android:inputType="number"
@@ -88,7 +88,7 @@
        android:layout_marginBottom="5.0dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:id="@+id/titleHome"
+       android:id="@+id/idCorreoUser"
        android:textColor="#F4ECCB"
        android:textSize="18sp"
        android:textColorHint="#F4ECCB"
@@ -96,7 +96,7 @@
        android:gravity="center"/>
 
     <EditText
-        android:inputType="none"
+        android:inputType="textPassword"
         android:enabled="false"
         android:backgroundTint="#F4ECCB"
         android:hint="Password"
@@ -106,7 +106,7 @@
         android:layout_marginBottom="5.0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bodyHome"
+        android:id="@+id/idPassword"
         android:textColor="#F4ECCB"
         android:textSize="18sp"
         android:textColorHint="#F4ECCB"
@@ -114,7 +114,7 @@
         android:gravity="center"/>
 
     <Button
-        android:text="All Data"
+        android:text="Show Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60.0dp"
@@ -125,11 +125,67 @@
         android:textColor="#F4ECCB"
         android:backgroundTint="#5BC6A9"
         android:textSize="18sp"
-        android:id="@+id/btnAllData" />
+        android:id="@+id/btnShowPassword" />
 
 
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#16A085"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Save" />
 
-        
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#F1948A"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Cancel" />
+    
+    <Button
+        android:text="UpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#5BC6A9"
+        android:textSize="18sp"
+        android:id="@+id/btnUpDate" />
+
+    <Button
+        android:text="Delete User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginBottom="5.0dp"
+        android:typeface="sans"
+        android:textColor="#F4ECCB"
+        android:backgroundTint="#F1948A"
+        android:textSize="18sp"
+        android:id="@+id/btnDeleteUser" />
+ 
 </LinearLayout>
 
 
